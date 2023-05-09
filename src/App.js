@@ -6,7 +6,9 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import ModelViewer from './components/character';
+import Character from './components/character';
+import Room from './components/room';
+import Groot from './components/groot';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Character />
+      <Room />
+      {/* <Groot /> */}
       <Contact />
       <Footer />
-      <ModelViewer objUrl="./assets/img/character.obj" />
     </div>
   );
 }
