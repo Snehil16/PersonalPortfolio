@@ -31,12 +31,12 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Baby Groot",
       description: "3D Project",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Cartoon Character",
       description: "3D Project",
       imgUrl: projImg3,
     },
